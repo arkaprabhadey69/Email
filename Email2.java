@@ -15,8 +15,8 @@ public class Email2 {
        
         while (true) {
 
-
-        	String x="^[a-zA-Z]+@[a-zA-Z]+.[(com)|(co)]+";
+              String x="^[a-zA-Z]+([._+-]{0,1}[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[(com)|(co)|(net)]+(?:\\.[a-z]{2,}){0,1}$";
+        	
             Pattern pattern = Pattern.compile(x);
             //Scanner s2=new Scanner(System.in);
             String y=s.next();
